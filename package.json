@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.1"
+  },
+  "name": "web_socket_test",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "romario",
+  "license": "ISC",
+  "description": ""
+}
